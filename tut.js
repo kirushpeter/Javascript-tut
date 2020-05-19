@@ -122,8 +122,14 @@
 //     return item > 7;
 // });
 
-const item = [2,4,6,7,9];
-const Doubled = item.forEach(function(element){
-    console.log(element);
+// const item = [2,4,6,7,9];
+// const Doubled = item.forEach(function(element){
+//     console.log(element);
     
-});
+// });
+
+var my_string = "Udacity";
+
+for (var i = 0; i < my_string.length; i++){
+    console.log(my_string.charCodeAt(i));
+}
